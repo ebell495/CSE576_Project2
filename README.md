@@ -1,5 +1,7 @@
 # CSE576_Project2
 
+Colab Notebook: https://colab.research.google.com/drive/1XYdqwQoAqZPUa524reehwcOe-zcy93Zy?usp=sharing
+
 ## Masking Methodologies
 
 - 1-Mask Numeration
