@@ -20,22 +20,12 @@
 
 ## Results
 
-### In Domain
-These are the results of testing a pre-trained and fine tuned model on their in-domain ranges
-
-|         In-Domain             | 0-100  | 0-1000  |  0-100000 
-|----------------------|---|---|---|
-| 1-Mask Numeration    |   |   |   |   
-| Many-Mask Numeration |   |   |   |   
-| 1-Mask Number        |   |   |   |   
-| Many-Mask Number     |   |   |   |   
-| Mixed-Mask           |   |   |   |   
-
 ### Out of Domain
 These are the results of testing a pre-trained and fine tuned model on an out of domain range. This range is from the top of the trained range to 100 times that. For example, 0-100 would be tested on 100-10000
 
 |         Out-Of-Domain             | 0-100  | 0-1000  |  0-100000 
 |----------------------|---|---|---|
+| T5-Base (Control)    |   |   |   |
 | 1-Mask Numeration    |   |   |   | 
 | Many-Mask Numeration |   |   |   |   
 | 1-Mask Number        |   |   |   |   
