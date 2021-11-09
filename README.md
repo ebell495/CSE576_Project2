@@ -2,6 +2,8 @@
 
 Colab Notebook: https://colab.research.google.com/drive/1XYdqwQoAqZPUa524reehwcOe-zcy93Zy?usp=sharing
 
+Trained Models: https://drive.google.com/drive/folders/17r6JXdVbzpj9qE8ZPSu_XZQEl86N6_g_?usp=sharing
+
 ## Masking Methodologies
 
 - 1-Mask Numeration
