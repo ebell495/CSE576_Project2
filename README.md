@@ -1,6 +1,8 @@
 # CSE576_Project2
 
-Colab Notebook: https://colab.research.google.com/drive/1XYdqwQoAqZPUa524reehwcOe-zcy93Zy?usp=sharing
+Pretraining Colab Notebook: https://colab.research.google.com/drive/1XYdqwQoAqZPUa524reehwcOe-zcy93Zy?usp=sharing
+
+Finetuning Colab Notebook: https://colab.research.google.com/drive/1dmb7WYaPWnsYVHtO37DsIQVKCNjAM2Q3?usp=sharing
 
 Trained Models: https://drive.google.com/drive/folders/17r6JXdVbzpj9qE8ZPSu_XZQEl86N6_g_?usp=sharing
 
@@ -23,15 +25,29 @@ Trained Models: https://drive.google.com/drive/folders/17r6JXdVbzpj9qE8ZPSu_XZQE
   - Three thousand four hundred fifty-five is the number 3455 -> \<mask> \<mask> four hundred fifty-\<mask> is the number 3\<mask>5\<mask>
 
 ## Results
+The finetuning domain is from 0-9999. The out of domain values are from 0-999999. We have pretrained 2 sets of models, one set up to the in domain range, and the other up to the out of domain range. We are interested in seeing if the out of domain results--predicting the number from numeration--performs better based on the pretraining techniques and ranges.
+
+
+### In Domain
+
+
+|         In Domain            | 0-9999  | 0-999999
+|----------------------|---|---|
+| T5-Base (Control)    |   |   |
+| 1-Mask Numeration    |   |   |
+| Many-Mask Numeration |   |   |
+| 1-Mask Number        |   |   |
+| Many-Mask Number     |   |   |
+| Mixed-Mask           |   |   |
 
 ### Out of Domain
-These are the results of testing a pre-trained and fine tuned model on an out of domain range. This range is from the top of the trained range to 100 times that. For example, 0-100 would be tested on 100-10000
+These are the results of testing a pre-trained and fine tuned model on an out of domain range.
 
-|         Out-Of-Domain             | 0-100  | 0-1000  |  0-100000 
-|----------------------|---|---|---|
-| T5-Base (Control)    |   |   |   |
-| 1-Mask Numeration    |   |   |   | 
-| Many-Mask Numeration |   |   |   |   
-| 1-Mask Number        |   |   |   |   
-| Many-Mask Number     |   |   |   |   
-| Mixed-Mask           |   |   |   |   
+|         Out-Of-Domain             | 0-9999  | 0-999999
+|----------------------|---|---|
+| T5-Base (Control)    |   |   |
+| 1-Mask Numeration    |   |   |
+| Many-Mask Numeration |   |   |
+| 1-Mask Number        |   |   |
+| Many-Mask Number     |   |   |
+| Mixed-Mask           |   |   |
