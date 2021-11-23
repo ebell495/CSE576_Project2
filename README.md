@@ -35,7 +35,7 @@ The finetuning domain is from 0-9999. The out of domain values are from 0-999999
 |----------------------|:-:|:-:|
 | T5-Base (Control)    | 89.223%  | -- |
 | 1-Mask Numeration    |   |   |
-| Many-Mask Numeration |   |   |
+| Many-Mask Numeration |  90.19% |   |
 | 1-Mask Number        |   |   |
 | Many-Mask Number     |   |   |
 | Mixed-Mask           | 99.599%  |   |
@@ -47,7 +47,7 @@ These are the results of testing a pre-trained and fine tuned model on an out of
 |----------------------|:-:|:-:|
 | T5-Base (Control)    |  12.479% | --  |
 | 1-Mask Numeration    |   |   |
-| Many-Mask Numeration |   |   |
+| Many-Mask Numeration |  2.348% |   |
 | 1-Mask Number        |   |   |
 | Many-Mask Number     |   |   |
 | Mixed-Mask           |  2.405% |   |
