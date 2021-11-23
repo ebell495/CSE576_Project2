@@ -38,7 +38,7 @@ The finetuning domain is from 0-9999. The out of domain values are from 0-999999
 | Many-Mask Numeration |   |   |
 | 1-Mask Number        |   |   |
 | Many-Mask Number     |   |   |
-| Mixed-Mask           |   |   |
+| Mixed-Mask           | 99.599%  |   |
 
 ### Out of Domain
 These are the results of testing a pre-trained and fine tuned model on an out of domain range.
@@ -50,4 +50,4 @@ These are the results of testing a pre-trained and fine tuned model on an out of
 | Many-Mask Numeration |   |   |
 | 1-Mask Number        |   |   |
 | Many-Mask Number     |   |   |
-| Mixed-Mask           |   |   |
+| Mixed-Mask           |  2.405% |   |
