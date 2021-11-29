@@ -49,7 +49,7 @@ These are the results of testing a pre-trained and fine tuned model on an out of
 | T5-Base (Control)    | 88.055% | -- |
 | Many-Mask Numeration |   |   |
 | Many-Mask Number     |  |   |
-| Mixed-Mask           |  |  |
+| Mixed-Mask           |  | 97.097% |
 
 ### Out of Domain E Representation
 These are the results of testing a pre-trained and fine tuned model on an out of domain range.
@@ -59,4 +59,4 @@ These are the results of testing a pre-trained and fine tuned model on an out of
 | T5-Base (Control)    | 0% | --  |
 | Many-Mask Numeration |  |   |
 | Many-Mask Number     |   |   |
-| Mixed-Mask           |  |   |
+| Mixed-Mask           |  |  0% |
