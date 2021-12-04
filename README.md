@@ -27,36 +27,36 @@ The finetuning domain is from 0-9999. The out of domain values are from 0-999999
 ### In Domain
 |         In Domain            | 0-9999  | 0-999999
 |----------------------|:-:|:-:|
-| T5-Base (Control)    | 89.223%  | -- |
-| Many-Mask Numeration |  90.19% |   |
-| Many-Mask Number     | 99.533%  |   |
-| Mixed-Mask           | 99.599%  | 99.833%  |
+| T5-Base (Control)    |  | -- |
+| Many-Mask Numeration |  90.557% |  82.249% |
+| Many-Mask Number     | 99.566%  | 99.433%  |
+| Mixed-Mask           | 99.666%  | 99.833%  |
 
 ### Out of Domain
 These are the results of testing a pre-trained and fine tuned model on an out of domain range.
 
 |         Out-Of-Domain             | 0-9999  | 0-999999
 |----------------------|:-:|:-:|
-| T5-Base (Control)    |  12.479% | --  |
-| Many-Mask Numeration |  2.348% |   |
-| Many-Mask Number     | 2.188%  |   |
-| Mixed-Mask           |  2.405% |  4.117%  |
+| T5-Base (Control)    |  | --  |
+| Many-Mask Numeration |  2.311% |  2.888% |
+| Many-Mask Number     | 2.230%  | 4.029%  |
+| Mixed-Mask           |  2.409% |  4.117%  |
 
 
 ### In Domain E Representation
 |         In Domain            | 0-9999  | 0-999999
 |----------------------|:-:|:-:|
-| T5-Base (Control)    | 88.055% | -- |
-| Many-Mask Numeration |   |   |
-| Many-Mask Number     |  | 98.365%  |
-| Mixed-Mask           | 97.097% | 96.163% |
+| T5-Base (Control)    | | -- |
+| Many-Mask Numeration | 82.449%  | 61.862%  |
+| Many-Mask Number     |  |   |
+| Mixed-Mask           |  | |
 
 ### Out of Domain E Representation
 These are the results of testing a pre-trained and fine tuned model on an out of domain range.
 
 |         Out-Of-Domain             | 0-9999  | 0-999999
 |----------------------|:-:|:-:|
-| T5-Base (Control)    | 0% | --  |
-| Many-Mask Numeration |  |   |
-| Many-Mask Number     |   | 0%  |
-| Mixed-Mask           | 0% |  .414% |
+| T5-Base (Control)    |  | --  |
+| Many-Mask Numeration | 0% |  0% |
+| Many-Mask Number     |   |  |
+| Mixed-Mask           |  |  |
