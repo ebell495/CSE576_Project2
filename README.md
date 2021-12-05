@@ -1,10 +1,19 @@
 # CSE576_Project2
-
+### Colab Notebooks
 Pretraining Colab Notebook: https://colab.research.google.com/drive/1XYdqwQoAqZPUa524reehwcOe-zcy93Zy?usp=sharing
 
 Finetuning Colab Notebook: https://colab.research.google.com/drive/1dmb7WYaPWnsYVHtO37DsIQVKCNjAM2Q3?usp=sharing
 
-Trained Models: https://drive.google.com/drive/folders/17r6JXdVbzpj9qE8ZPSu_XZQEl86N6_g_?usp=sharing
+(Use to test the finetuned models)
+
+Evaluation Colab Notebook: https://colab.research.google.com/drive/1IxyxmCI_fCDB1wRaOisNZOicUkUONdgU?usp=sharing
+
+### Saved Models
+Pretrained Models: https://drive.google.com/drive/folders/17r6JXdVbzpj9qE8ZPSu_XZQEl86N6_g_?usp=sharing
+
+Finetuned Models: https://drive.google.com/drive/folders/1ECsp-OmDDUrXAKPyo5Eqx4F2T6XDffTO?usp=sharing
+
+Results: https://drive.google.com/drive/folders/12fXNKFBKsxZmmrtORfhBlR2AHKMftNoH?usp=sharing
 
 ## Masking Methodologies
 - Many-Mask Numeration
@@ -27,7 +36,7 @@ The finetuning domain is from 0-9999. The out of domain values are from 0-999999
 ### In Domain
 |         In Domain            | 0-9999  | 0-999999
 |----------------------|:-:|:-:|
-| T5-Base (Control)    |  | -- |
+| T5-Base (Control)    | 89.656% | -- |
 | Many-Mask Numeration |  90.557% |  82.249% |
 | Many-Mask Number     | 99.566%  | 99.433%  |
 | Mixed-Mask           | 99.666%  | 99.833%  |
@@ -37,7 +46,7 @@ These are the results of testing a pre-trained and fine tuned model on an out of
 
 |         Out-Of-Domain             | 0-9999  | 0-999999
 |----------------------|:-:|:-:|
-| T5-Base (Control)    |  | --  |
+| T5-Base (Control)    | 12.575% | --  |
 | Many-Mask Numeration |  2.311% |  2.888% |
 | Many-Mask Number     | 2.230%  | 4.029%  |
 | Mixed-Mask           |  2.409% |  4.117%  |
@@ -46,17 +55,17 @@ These are the results of testing a pre-trained and fine tuned model on an out of
 ### In Domain E Representation
 |         In Domain            | 0-9999  | 0-999999
 |----------------------|:-:|:-:|
-| T5-Base (Control)    | | -- |
+| T5-Base (Control)    | 88.055 | -- |
 | Many-Mask Numeration | 82.449%  | 61.862%  |
-| Many-Mask Number     |  |   |
-| Mixed-Mask           |  | |
+| Many-Mask Number     | 99.933% | 98.365%  |
+| Mixed-Mask           | 99.766% | 99.933% |
 
 ### Out of Domain E Representation
 These are the results of testing a pre-trained and fine tuned model on an out of domain range.
 
 |         Out-Of-Domain             | 0-9999  | 0-999999
 |----------------------|:-:|:-:|
-| T5-Base (Control)    |  | --  |
+| T5-Base (Control)    | 0% | --  |
 | Many-Mask Numeration | 0% |  0% |
-| Many-Mask Number     |   |  |
-| Mixed-Mask           |  |  |
+| Many-Mask Number     |  0% | 0% |
+| Mixed-Mask           | 0% | 0% |
